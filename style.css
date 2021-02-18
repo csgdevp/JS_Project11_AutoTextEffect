@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,500;1,700&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #76473c;
+  font-family: "Texturina", serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+div {
+  position: absolute;
+  bottom: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: #76473c;
+  color: #ffffff;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
